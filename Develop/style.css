@@ -1,13 +1,16 @@
+/*Main CSS format and reset value*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*Background Layout*/
 body {
     background-color: #d9dcd6;
 }
 
+/*Header style*/
 .horiseon {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/*Header alignment*/
 .horiseon h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*Colour format change in header "Horiseon"*/
 .horiseon h1 .seo {
     color: #d9dcd6;
 }
 
+/*Navigation style*/
 .horiseon nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,10 +38,12 @@ body {
     font-size: 20px;
 }
 
+/*Navigation table alignment*/
 .horiseon nav ul {
     list-style-type: none;
 }
 
+/*Navigation line alignment*/
 .horiseon nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -50,6 +58,7 @@ p {
     font-size: 16px;
 }
 
+/*Attributes for lead image, Img attached to HTML rather then CSS for accessible formatting control*/
 #hero {
     height: 800px;
     width: 100%;
@@ -58,22 +67,26 @@ p {
     object-position: center;
 }
 
+/*body img alignments*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*body img alignments*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*Body text alignments*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*Body text style*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -83,6 +96,7 @@ p {
     color: #ffffff;
 }
 
+/*Body text style*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -92,6 +106,7 @@ p {
     color: #ffffff;
 }
 
+/*Body text style*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -101,33 +116,40 @@ p {
     color: #ffffff;
 }
 
+/*Body img size*/
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/*Body img size*/
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/*Body img size*/
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/*Body heading style*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*Body heading style*/
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*Body heading style*/
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*Sidebar attributes*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -141,17 +163,20 @@ p {
     color: #ffffff;
 }
 
+/*Sidebar heading attributes*/
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*Sidebar image attributes*/
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*footer attributes*/
 .footer {
     padding: 30px;
     clear: both;
@@ -159,6 +184,7 @@ p {
     text-align: center;
 }
 
+/*footer heading style*/
 .footer h2 {
     font-size: 20px;
 }
